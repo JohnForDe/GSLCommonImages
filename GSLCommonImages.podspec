@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GSLCommonImages"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "General picture application library."
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/*.{h,m}"
+  spec.source_files  = "Classes/*.{h,m}"
   spec.exclude_files = "Recourses/*"
 
   # spec.public_header_files = "Classes/**/*.h"
