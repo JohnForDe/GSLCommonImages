@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GSLCommonImages"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "General picture application library."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "GSLCommonImages/*.{h,m}"
-  spec.exclude_files = "GSLCommonImages/*"
+  spec.exclude_files = ""
+  spec.ios.resource_bundle = {'GSLCommonImages' => 'GSLCommonImages/Resources/*.xcassets'}
 
   # spec.public_header_files = "Classes/**/*.h"
 
