@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "GSLCommonImages/*.{h,m}"
-  spec.resource = 'GSLCommonImages/Resources/*'
+  spec.resources = 'GSLCommonImages/Resources/*'
 
   # spec.public_header_files = "Classes/**/*.h"
 
