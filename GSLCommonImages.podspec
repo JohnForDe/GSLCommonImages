@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GSLCommonImages"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "General picture application library."
 
   # This description is used to generate tags and improve search results.
@@ -52,10 +52,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "郭树磊" => "guoshulei@gaokaofun.com" }
-  # Or just: spec.author    = "郭树磊"
-  # spec.authors            = { "郭树磊" => "guoshulei@gaokaofun.com" }
-  # spec.social_media_url   = "https://twitter.com/郭树磊"
+  spec.author             = { "GSL" => "guoshulei@gaokaofun.com" }
+  # Or just: spec.author    = "GSL"
+  # spec.authors            = { "GSL" => "guoshulei@gaokaofun.com" }
+  # spec.social_media_url   = "https://twitter.com/GSL"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -91,8 +91,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "GSLCommonImages/*.{h,m}"
-  spec.exclude_files = ""
-  spec.ios.resource_bundle = {'GSLCommonImages' => 'GSLCommonImages/Resources/*.xcassets'}
+  spec.resource = 'GSLCommonImages/Resources/*'
 
   # spec.public_header_files = "Classes/**/*.h"
 
